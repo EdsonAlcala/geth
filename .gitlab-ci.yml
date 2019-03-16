@@ -11,7 +11,7 @@ docker build and publish:
     DOCKER_HOST: tcp://docker:2375/
     REPOSITORY_URI: edsonalcala
     PROJECT_NAME: geth
-    TAG_NAME: 1.0-alpine
+    TAG_NAME: 1.1-alpine
   script:
     - SHORT_SHA=${CI_COMMIT_SHA:0:8}
     - echo "$SHORT_SHA"
